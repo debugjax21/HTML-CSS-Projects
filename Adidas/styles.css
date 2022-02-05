@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "AdiHaus";
+  src: URL("https://assets.codepen.io/6060109/adihaus_regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: AdiHaus;
+}
+img {
+  display: block;
+  margin: 20px auto;
+}
+h2 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  margin: 20px;
+  padding: 0px 22px;
+  text-transform: uppercase;
+}
+.outline {
+  box-sizing: border-box;
+  max-width: 375px;
+  margin: 0 auto;
+}
+#main-image {
+  max-width: 375px;
+}
+.content {
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2:nth-of-type(1) {
+  color: #2f80ed;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+h2:nth-of-type(2) {
+  color: #423a3a;
+  font-weight: 700;
+  line-height: 50px;
+}
+p {
+  line-height: 28px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+input {
+  border-radius: 2px;
+  border: 1px solid #333333;
+  height: 50px;
+  box-sizing: border-box;
+}
+input[type="email"] {
+  width: 80%;
+  opacity: 0.5;
+  padding: 0 25px;
+  color: #828282;
+}
+input[type="submit"] {
+  width: 20%;
+  background: linear-gradient(
+    90deg,
+    rgba(124, 124, 124, 1) 0%,
+    rgba(43, 40, 40, 0.9868989832261029) 100%
+  );
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.desktop-container {
+  display: none;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    height: 100vh;
+    background: url("https://assets.codepen.io/6060109/waves.png");
+    background-size: cover;
+  }
+  #main-image {
+    display: none;
+  }
+  h2 {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 64px;
+  }
+  p {
+    line-height: 28px;
+    margin: 20px 0 40px;
+  }
+  #logo {
+    margin: 60px 0 120px;
+  }
+  .outline {
+    max-width: 445px;
+  }
+  .content {
+    text-align: left;
+  }
+  .desktop-image {
+    width: 38%;
+    background: url("https://assets.codepen.io/6060109/shoes.png");
+    background-size: cover;
+    margin: none;
+    padding: none;
+  }
+  h2:nth-of-type(1) {
+    line-height: 64px;
+  }
+  h2:nth-of-type(2) {
+    line-height: 71px;
+  }
+}
