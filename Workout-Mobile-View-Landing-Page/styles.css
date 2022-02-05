@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-BlackItalic.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-RegularItalic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Hellix";
+  src: url("https://assets.codepen.io/6060109/Hellix-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #fffdfd;
+}
+body,
+a,
+input {
+  font-family: Hellix;
+}
+
+body,
+input::placeholder {
+  color: #111235;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+h1,
+h3,
+h2,
+h6,
+a {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 57.61px;
+  padding: 30px 0 20px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28.8px;
+  margin: 0 15px 20px;
+}
+
+h5 {
+  margin-top: 30px;
+  padding-right: 10%;
+}
+
+h6 {
+  font-size: 14px;
+  margin: 40px 0;
+  padding-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+p {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.out-most-cntr {
+  min-width: 360px;
+  max-width: 414px;
+  margin: 0 auto;
+  /* background-color: lightblue; */
+}
+
+#title-bar {
+  background-color: white;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.content-cntr {
+  text-align: center;
+  width: 100%;
+  margin: 30px auto 100px;
+}
+.content-cntr img {
+  width: 100%;
+}
+
+.content-cntr p,
+h2 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.align-left {
+  text-align: left;
+}
+.bold,
+h4 {
+  font-weight: 700;
+}
+
+.all-btn {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62%;
+  height: 55px;
+  border-radius: 35px;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  transition: 0.5s ease all;
+}
+
+.all-btn,
+h5 {
+  font-weight: 600;
+}
+
+.colored-btn {
+  background-color: #4b5092;
+  color: white;
+}
+
+.transition-btn:hover {
+  opacity: 0.8;
+  transition: 0.5s ease all;
+}
+
+.light-blue-back {
+  background-color: #f2f8ff;
+  margin: 30px 0;
+  padding-bottom: 40px;
+}
+
+.light-blue-back h2 {
+  margin-right: 31px;
+}
+
+.bg-3 {
+  background: linear-gradient(99.85deg, #bad5ff 0%, #6487bf 100%);
+}
+
+.bg-3 h2 {
+  padding-bottom: 10px;
+}
+
+.bg-3 p:nth-of-type(1) {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+h5,
+.bg-3 p:nth-of-type(1) {
+  font-size: 18px;
+}
+
+.bg-3 img {
+  margin-bottom: -2px;
+}
+
+.text-bubble {
+  box-sizing: border-box;
+  height: 274px;
+  border-radius: 30px;
+  padding: 50px 84px 50px 20px;
+  margin: 20px 18px 20px 8px;
+}
+
+.bubble-color-1 {
+  background-color: #e4f0ff;
+}
+
+.bubble-color-2 {
+  background: rgba(114, 122, 239, 0.1);
+}
+
+footer {
+  text-align: center;
+  font-weight: 500;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  width: 98%;
+  background-color: rgb(228, 246, 255);
+}
+
+footer h3 {
+  margin: 40px 0 20px;
+}
+
+footer a {
+  height: 24px;
+  padding: 15px 0;
+}
+
+input {
+  margin: 20px 0;
+  box-sizing: border-box;
+  width: 65%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-image: url("https://assets.codepen.io/6060109/icon-send.png");
+  background-repeat: no-repeat;
+  background-position: 98% 50%;
+}
+
+input::placeholder {
+  font-weight: 500;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 100%;
+  background-color: rgba(128, 173, 245, 0.2);
+}
+
+.footer-icons img {
+  margin: 0 10px;
+  height: 10%;
+}
