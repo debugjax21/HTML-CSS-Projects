@@ -1,2 +1,2 @@
 # Personal-Projects
-Stuff I've done on the outside for fun, outside of my assignments.
+Stuff I've done on the outside of school projects for fun.
